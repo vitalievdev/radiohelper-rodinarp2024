@@ -1,2 +1,2 @@
-# radiohelper-rodinarp2024
-radiohelper-rodinarp2024
+# gibdd-helper-rodinarp2024
+ГИБДД Биндер для сотрудников Гибдд на Rodina Role Play 

@@ -1,5 +1,5 @@
-[13:45:55.719526] (system)	Session started.
-[13:45:55.719526] (debug)	Module handle: 78A00000
+[00:51:36.921220] (system)	Session started.
+[00:51:36.921220] (debug)	Module handle: 79F20000
 
 MoonLoader v.026.5-beta loaded.
 Developers: FYP, hnnssy, EvgeN 1137
@@ -7,103 +7,55 @@ Developers: FYP, hnnssy, EvgeN 1137
 Copyright (c) 2016, BlastHack Team
 http://blast.hk/moonloader/
 
-[13:45:55.719526] (info)	Working directory: D:\Games\Arizona Games Launcher\bin\231321\moonloader
-[13:45:55.719526] (debug)	FP Control: 0109001F
-[13:45:55.719526] (debug)	Game: GTA SA 1.0.0.0 US
-[13:45:55.719526] (system)	Installing pre-game hooks...
-[13:45:55.723526] (system)	Hooks installed.
-[13:45:59.429302] (debug)	Initializing opcode handler table
-[13:45:59.430303] (debug)	package.path = D:\Games\Arizona Games Launcher\bin\231321\moonloader\lib\?.lua;D:\Games\Arizona Games Launcher\bin\231321\moonloader\lib\?\init.lua;D:\Games\Arizona Games Launcher\bin\231321\moonloader\?.lua;D:\Games\Arizona Games Launcher\bin\231321\moonloader\?\init.lua;.\?.lua;D:\Games\Arizona Games Launcher\bin\231321\moonloader\lib\?.luac;D:\Games\Arizona Games Launcher\bin\231321\moonloader\lib\?\init.luac;D:\Games\Arizona Games Launcher\bin\231321\moonloader\?.luac;D:\Games\Arizona Games Launcher\bin\231321\moonloader\?\init.luac;.\?.luac
-[13:45:59.430303] (debug)	package.cpath = D:\Games\Arizona Games Launcher\bin\231321\moonloader\lib\?.dll;
-[13:45:59.434303] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\AutoReboot.lua'...
-[13:45:59.434303] (debug)	New script: 1D594BAC
-[13:45:59.437809] (system)	ML-AutoReboot: Loaded successfully.
-[13:45:59.437809] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\cdist.lua'...
-[13:45:59.437809] (debug)	New script: 2A9AD4CC
-[13:45:59.439350] (system)	CDIST: Loaded successfully.
-[13:45:59.439350] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\check-moonloader-updates.lua'...
-[13:45:59.440349] (debug)	New script: 2A9ACA14
-[13:45:59.469006] (system)	Check MoonLoader Updates: Loaded successfully.
-[13:45:59.469006] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\DTime1.3.lua'...
-[13:45:59.469006] (debug)	New script: 2A9AD964
-[13:45:59.602016] (system)	DTime: Loaded successfully.
-[13:45:59.602016] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\imgui_addons.lua'...
-[13:45:59.602016] (debug)	New script: 2A9AD1BC
-[13:45:59.607527] (system)	imgui_addons.lua: Loaded successfully.
-[13:45:59.607527] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\imgui_notf.lua'...
-[13:45:59.607527] (debug)	New script: 2A9AD654
-[13:45:59.634195] (system)	imgui_notf.lua: Loaded successfully.
-[13:45:59.634195] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\InputHelper.lua'...
-[13:45:59.634195] (debug)	New script: 2A9ADC74
-[13:45:59.636193] (system)	Input Helper: Loaded successfully.
-[13:45:59.636193] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\RadioHelper.lua'...
-[13:45:59.636193] (debug)	New script: 2A9ACB9C
-[13:45:59.791466] (system)	Rodina RP 02 | Radio Helper: Loaded successfully.
-[13:45:59.792469] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\reload_all.lua'...
-[13:45:59.792469] (debug)	New script: 2A9AD344
-[13:45:59.793469] (system)	ML-ReloadAll: Loaded successfully.
-[13:45:59.793469] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\rhelp.luac'...
-[13:45:59.793469] (debug)	New script: 2A9ADDFC
-[13:45:59.810590] (system)	rhelp.luac: Loaded successfully.
-[13:46:07.160073] (system)	Installing post-load hooks...
-[13:46:07.160073] (system)	Hooks installed.
-[13:46:34.072831] (script)	ML-AutoReboot: Reloading "Rodina RP 02 | Radio Helper"...
-[13:46:34.073826] (system)	Rodina RP 02 | Radio Helper: Script terminated. (2A9ACB9C)
-[13:46:34.075335] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\RadioHelper.lua'...
-[13:46:34.075335] (debug)	New script: 8AE88F4C
-[13:46:34.100450] (system)	Rodina RP 06 | Radio Helper: Loaded successfully.
-[13:49:03.186826] (error)	Rodina RP 06 | Radio Helper: ...ona Games Launcher\bin\231321\moonloader\RadioHelper.lua:921: attempt to concatenate global 'id' (a nil value)
-stack traceback:
-	...ona Games Launcher\bin\231321\moonloader\RadioHelper.lua: in function <...ona Games Launcher\bin\231321\moonloader\RadioHelper.lua:910>
-[13:49:03.186826] (error)	Rodina RP 06 | Radio Helper: Script died due to an error. (8AE88F4C)
-[13:49:22.426453] (system)	ML-AutoReboot: Script terminated. (1D594BAC)
-[13:49:22.426453] (system)	CDIST: Script terminated. (2A9AD4CC)
-[13:49:22.428045] (system)	Check MoonLoader Updates: Script terminated. (2A9ACA14)
-[13:49:22.428045] (system)	DTime: Script terminated. (2A9AD964)
-[13:49:22.429977] (system)	imgui_addons.lua: Script terminated. (2A9AD1BC)
-[13:49:22.430965] (system)	imgui_notf.lua: Script terminated. (2A9AD654)
-[13:49:22.431967] (system)	Input Helper: Script terminated. (2A9ADC74)
-[13:49:22.431967] (system)	ML-ReloadAll: Script terminated. (2A9AD344)
-[13:49:22.432982] (system)	rhelp.luac: Script terminated. (2A9ADDFC)
-[13:49:22.433971] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\AutoReboot.lua'...
-[13:49:22.433971] (debug)	New script: 8AE8987C
-[13:49:22.434976] (system)	ML-AutoReboot: Loaded successfully.
-[13:49:22.434976] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\cdist.lua'...
-[13:49:22.434976] (debug)	New script: 8AE88DC4
-[13:49:22.435984] (system)	CDIST: Loaded successfully.
-[13:49:22.435984] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\check-moonloader-updates.lua'...
-[13:49:22.435984] (debug)	New script: 8AE8A024
-[13:49:22.438521] (system)	Check MoonLoader Updates: Loaded successfully.
-[13:49:22.438521] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\DTime1.3.lua'...
-[13:49:22.438521] (debug)	New script: 8AE88C3C
-[13:49:22.485232] (system)	DTime: Loaded successfully.
-[13:49:22.486233] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\imgui_addons.lua'...
-[13:49:22.486233] (debug)	New script: 8AE8925C
-[13:49:22.492750] (system)	imgui_addons.lua: Loaded successfully.
-[13:49:22.492750] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\imgui_notf.lua'...
-[13:49:22.492750] (debug)	New script: 8AE8A1AC
-[13:49:22.498255] (system)	imgui_notf.lua: Loaded successfully.
-[13:49:22.499263] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\InputHelper.lua'...
-[13:49:22.499263] (debug)	New script: 8AE8A334
-[13:49:22.502269] (system)	Input Helper: Loaded successfully.
-[13:49:22.502269] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\RadioHelper.lua'...
-[13:49:22.502269] (debug)	New script: 8AE88F4C
-[13:49:22.524814] (system)	Rodina RP 06 | Radio Helper: Loaded successfully.
-[13:49:22.524814] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\reload_all.lua'...
-[13:49:22.524814] (debug)	New script: 8AE890D4
-[13:49:22.525814] (system)	ML-ReloadAll: Loaded successfully.
-[13:49:22.525814] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\231321\moonloader\rhelp.luac'...
-[13:49:22.525814] (debug)	New script: 8AE893E4
-[13:49:22.538375] (system)	rhelp.luac: Loaded successfully.
-[14:02:19.751134] (system)	Unloading...
-[14:02:19.751134] (system)	ML-AutoReboot: Script terminated. (8AE8987C)
-[14:02:19.751134] (system)	CDIST: Script terminated. (8AE88DC4)
-[14:02:19.751134] (system)	Check MoonLoader Updates: Script terminated. (8AE8A024)
-[14:02:19.752140] (system)	DTime: Script terminated. (8AE88C3C)
-[14:02:19.753128] (system)	imgui_addons.lua: Script terminated. (8AE8925C)
-[14:02:19.753128] (system)	imgui_notf.lua: Script terminated. (8AE8A1AC)
-[14:02:19.754129] (system)	Input Helper: Script terminated. (8AE8A334)
-[14:02:19.754129] (system)	Rodina RP 06 | Radio Helper: Script terminated. (8AE88F4C)
-[14:02:19.758129] (system)	ML-ReloadAll: Script terminated. (8AE890D4)
-[14:02:19.758642] (system)	rhelp.luac: Script terminated. (8AE893E4)
-[14:02:20.108931] (system)	Session terminated.
+[00:51:36.921220] (info)	Working directory: D:\Games\Arizona Games Launcher\bin\rodina\moonloader
+[00:51:36.921220] (debug)	FP Control: 0109001F
+[00:51:36.922204] (debug)	Game: GTA SA 1.0.0.0 US
+[00:51:36.922204] (system)	Installing pre-game hooks...
+[00:51:36.923732] (system)	Hooks installed.
+[00:51:40.336982] (debug)	Initializing opcode handler table
+[00:51:40.336982] (debug)	package.path = D:\Games\Arizona Games Launcher\bin\rodina\moonloader\lib\?.lua;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\lib\?\init.lua;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\?.lua;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\?\init.lua;.\?.lua;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\lib\?.luac;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\lib\?\init.luac;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\?.luac;D:\Games\Arizona Games Launcher\bin\rodina\moonloader\?\init.luac;.\?.luac
+[00:51:40.336982] (debug)	package.cpath = D:\Games\Arizona Games Launcher\bin\rodina\moonloader\lib\?.dll;
+[00:51:40.339978] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\AutoReboot.lua'...
+[00:51:40.339978] (debug)	New script: 235965AC
+[00:51:40.340981] (system)	ML-AutoReboot: Loaded successfully.
+[00:51:40.340981] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\cdist.lua'...
+[00:51:40.340981] (debug)	New script: 23597E2C
+[00:51:40.341980] (system)	CDIST: Loaded successfully.
+[00:51:40.341980] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\check-moonloader-updates.lua'...
+[00:51:40.342979] (debug)	New script: 23597B1C
+[00:51:40.344981] (system)	Check MoonLoader Updates: Loaded successfully.
+[00:51:40.344981] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\DTime1.3.lua'...
+[00:51:40.345979] (debug)	New script: 23597CA4
+[00:51:40.359597] (system)	DTime: Loaded successfully.
+[00:51:40.359597] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\imgui_addons.lua'...
+[00:51:40.359597] (debug)	New script: 23596114
+[00:51:40.366917] (system)	imgui_addons.lua: Loaded successfully.
+[00:51:40.367898] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\imgui_notf.lua'...
+[00:51:40.367898] (debug)	New script: 23596424
+[00:51:40.373898] (system)	imgui_notf.lua: Loaded successfully.
+[00:51:40.373898] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\InputHelper.lua'...
+[00:51:40.373898] (debug)	New script: 23596D54
+[00:51:40.377024] (system)	Input Helper: Loaded successfully.
+[00:51:40.377024] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\RadioHelper.luac'...
+[00:51:40.377024] (debug)	New script: 1A35889C
+[00:51:40.394610] (system)	Rodina RP 06 | Radio Helper: Loaded successfully.
+[00:51:40.394610] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\reload_all.lua'...
+[00:51:40.394610] (debug)	New script: 1A357C5C
+[00:51:40.394610] (system)	ML-ReloadAll: Loaded successfully.
+[00:51:40.394610] (system)	Loading script 'D:\Games\Arizona Games Launcher\bin\rodina\moonloader\rhelp.luac'...
+[00:51:40.394610] (debug)	New script: 2E794144
+[00:51:40.406142] (system)	rhelp.luac: Loaded successfully.
+[00:51:46.988875] (system)	Installing post-load hooks...
+[00:51:46.988875] (system)	Hooks installed.
+[00:52:33.391260] (system)	Unloading...
+[00:52:33.391260] (system)	ML-AutoReboot: Script terminated. (235965AC)
+[00:52:33.391260] (system)	CDIST: Script terminated. (23597E2C)
+[00:52:33.391260] (system)	Check MoonLoader Updates: Script terminated. (23597B1C)
+[00:52:33.391260] (system)	DTime: Script terminated. (23597CA4)
+[00:52:33.392253] (system)	imgui_addons.lua: Script terminated. (23596114)
+[00:52:33.393251] (system)	imgui_notf.lua: Script terminated. (23596424)
+[00:52:33.394242] (system)	Input Helper: Script terminated. (23596D54)
+[00:52:33.394242] (system)	Rodina RP 06 | Radio Helper: Script terminated. (1A35889C)
+[00:52:33.396242] (system)	ML-ReloadAll: Script terminated. (1A357C5C)
+[00:52:33.396242] (system)	rhelp.luac: Script terminated. (2E794144)
+[00:52:33.476086] (system)	Session terminated.

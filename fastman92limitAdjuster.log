@@ -1,0 +1,1295 @@
+Starting fastman92 limit adjuster 6.0, compilation time: Mar 26 2021 04:55:38 (UTC)
+Website: http://fastman92.com
+
+Launch time: 16-3-2024 22:51:36 (UTC), 00:51 (local)
+Launched during the night.
+
+Solution platform: WIN_X86
+FASTMAN92_LIMIT_ADJUSTER_RELEASE_DIRECTORY is not defined. Documentation files will not be written.
+Game detected: GTA SA 1.0 US HOODLUM 14383616 bytes
+Game uses dynamic image base? No
+Game preferred image base: 0x400000
+Game current image base: 0x400000
+
+Number of FLA modules: 70
+Delayed processing of limits? No
+
+Root base directory: 
+Root directory: D:\Games\Arizona Games Launcher\bin\rodina
+Initial directory: D:\Games\Arizona Games Launcher\bin\rodina
+INI filename: fastman92limitAdjuster_GTASA.ini
+
+Global exception handler has been registered.
+---------------------------------------------
+None of ID limits is changed. Nothing to do.
+---------------------------------------------
+Modified count of killable model IDs: 17580
+---------------------------------------------
+Renderware world map size set to 6000 x 6000
+World map size set to 6000 x 6000
+World sector size set to 100 x 100
+World LOD sector size set to 300 x 300
+
+World map info info:
+World map size: 6000 x 6000
+
+World sectors:
+CWorld::ms_aSectors
+type: buildings, dummies
+count: 60 * 60 = 3600
+sector area: 100 x 100
+
+CWorld::ms_aLodPtrLists
+type: lod
+count: 20 * 20 = 400
+sector area: 300 x 300
+
+CWorld::ms_aRepeatSectors
+type: vehicles, peds, object
+count: 16 * 16 = 256
+
+
+---------------------------------------------
+Enabling handling.cfg limit adjuster.
+New limits:
+Number of standard lines = 600
+Number of bike lines = 100
+Number of flying lines = 100
+Number of boat lines = 50
+Number of animation group lines = 30
+
+&mod_HandlingManager = 0x1B05DE8, sizeof(mod_HandlingManager) = 0x29620
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: VehicleStructs to: 250
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: rwObjectInstances to: 5000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: Matrices to: 4500
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: PtrNode Singles to: 350000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: PtrNode Doubles to: 16000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: EntryInfoNodes to: 2500
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: QuadTreeNodes to: 2000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: Collision links to: 250
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: ColModels to: 50750
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomEnvMapPipeMatDataPool to: 20480
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomEnvMapPipeAtmDataPool to: 5120
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomSpecMapPipeMaterialDataPool to: 20480
+---------------------------------------------
+Modified limit of IPL:inst, buildings to: 33000
+---------------------------------------------
+Modified limit of IPL: inst per file to: 4096
+---------------------------------------------
+Modified limit of IPL: entity index array to: 71
+---------------------------------------------
+Modified limit of IDE:objs:type1 section to 24000
+---------------------------------------------
+Modified limit of IDE:hier section to 194
+---------------------------------------------
+Modified limit of IDE:cars section to 1042
+---------------------------------------------
+Modified limit of IDE:peds section to 735
+---------------------------------------------
+Modified limit of IDE:weap section to 130
+---------------------------------------------
+Enabled handling of new enhanced IMG archives.
+---------------------------------------------
+IMG archive size limit increased to 32 GB.
+---------------------------------------------
+Modified max number of IMG archives to: 27
+---------------------------------------------
+Modified limit of DIRECTORY LIMITS: Clothes directory to: 550
+---------------------------------------------
+Modified limit of 'Max number of stream handles' to: 35
+---------------------------------------------
+Modified limit of RENDERER: Visible super LOD pointers to: 150
+---------------------------------------------
+Modified limit of RENDERER: Visible LOD pointers to: 2000
+---------------------------------------------
+Modified limit of RENDERER: Visible entity pointers to: 2000
+---------------------------------------------
+Modified limit of OTHER LIMITS: Collision size to: 52768
+---------------------------------------------
+Modified limit of OTHER LIMITS: Coronas to: 500
+---------------------------------------------
+Vehicle special features are enabled
+Number of hydra vehicles = 0
+Number of ZR350 vehicles = 0
+ZR350 0 = 477
+ZR350 1 = 2847
+ZR350 2 = 7766
+ZR350 3 = 10573
+ZR350 4 = 12949
+---------------------------------------------
+SPECIAL: Plane speed limit disabled.
+---------------------------------------------
+Error reporting going to be applied.
+GTA_ERROR_ATTEMPT_TO_LOAD_OBJECT_INSTANCE_WITH_UNDEFINED_ID enabled.
+GTA_ERROR_MODEL_DOES_NOT_HAVE_COLLISION_LOADED enabled.
+GTA_ERROR_CAR_GENERATOR_WITH_INVALID_MODEL_ID_IS_GETTING_REGISTERED enabled.
+GTA_ERROR_IMG_ARCHIVE_NEEDS_REBUILDING enabled.
+GTA_ERROR_REQUESTED_FILE_DOES_NOT_EXIST enabled.
+GTA_ERROR_STREAM_HANDLES_LIMIT_EXCEEDED enabled.
+Error reporting is applied now.
+---------------------------------------------
+Debugging output is enabled now. Use debugger to catch messages.
+---------------------------------------------
+"Enable logging of files loaded" is enabled now.
+---------------------------------------------
+Weapon type loader is enabled. NumberOfWeaponTypes = 138.
+---------------------------------------------
+Radar blip sprite filename loader: config was loaded. ms_numberOfTypeIDs = 130
+---------------------------------------------
+Vehicle audio loader is enabled
+---------------------------------------------
+FLA loading text is disabled.
+---------------------------------------------
+Number of memory changes made: 2229
+---------------------------------------------
+Loaded ID 25001, file barriers.col
+Loaded ID 25002, file cranes_dyn2.col
+Loaded ID 25003, file cuntdesxref.col
+Loaded ID 25004, file cuntysouth.col
+Loaded ID 25005, file cxref_industrial.col
+Loaded ID 25006, file dynamic.col
+Loaded ID 25007, file dynamic2.col
+Loaded ID 25008, file DYN_S.col
+Loaded ID 25009, file levelxre.col
+Loaded ID 25010, file multiobj.col
+Loaded ID 25011, file procobj.col
+Loaded ID 25012, file quarrycrane.col
+Loaded ID 25013, file vegepart.col
+Loaded ID 25014, file veh_mods.col
+Loaded ID 25015, file mod_int.col
+Loaded ID 25016, file volzhsk_troya.col
+Loaded ID 25017, file mf1_shrub_1.col
+Loaded ID 25018, file res_o_build_6_1.col
+Loaded ID 25019, file skins.col
+Loaded ID 25020, file tuning.col
+Loaded ID 25021, file weapons.col
+Loaded ID 25022, file all_mp_cols.col
+Loaded ID 25023, file barriers.col
+Loaded ID 25024, file cranes_dyn2.col
+Loaded ID 25025, file cuntdesxref.col
+Loaded ID 25026, file cuntysouth.col
+Loaded ID 25027, file cxref_industrial.col
+Loaded ID 25028, file dynamic.col
+Loaded ID 25029, file dynamic2.col
+Loaded ID 25030, file DYN_S.col
+Loaded ID 25031, file levelxre.col
+Loaded ID 25032, file multiobj.col
+Loaded ID 25033, file procobj.col
+Loaded ID 25034, file quarrycrane.col
+Loaded ID 25035, file vegepart.col
+Loaded ID 25036, file veh_mods.col
+Loaded ID 25037, file gamemods.col
+Loaded ID 25038, file accessories.col
+Loaded ID 25039, file arz_bld.col
+Loaded ID 25040, file arz_bld2.col
+Loaded ID 25041, file arz_land.col
+Loaded ID 25042, file edovo.col
+Loaded ID 25043, file halloween.col
+Loaded ID 25044, file map_bild.col
+Loaded ID 25045, file map_gen.col
+Loaded ID 25046, file map_landP1.col
+Loaded ID 25047, file map_landP2.col
+Loaded ID 25048, file map_landP3.col
+Loaded ID 25049, file map_landP4.col
+Loaded ID 25050, file new_ltk.col
+Loaded ID 25051, file pdd.col
+Loaded ID 25052, file podezdy.col
+Loaded ID 25053, file ryazan.col
+Loaded ID 25054, file Scoast.col
+Loaded ID 25055, file trees.col
+Loaded ID 25056, file Wcoast.col
+Loaded ID 25057, file zhd_rodina.col
+Loaded ID 25058, file event.col
+Loaded ID 25266, file ryazan_stream0.IPL
+Loaded ID 25267, file ryazan_stream1.IPL
+Loaded ID 25259, file arz_bld_stream0.IPL
+Loaded ID 25260, file arz_bld_stream1.IPL
+Loaded ID 25261, file edovo_stream0.IPL
+Loaded ID 25262, file edovo_stream1.IPL
+Loaded ID 25264, file new_ltk_stream0.IPL
+Loaded ID 25265, file new_ltk_stream1.IPL
+Loaded ID 25263, file koryakino_stream0.IPL
+Loaded ID 25256, file Scoast_stream0.ipl
+Loaded ID 25257, file Scoast_stream1.ipl
+Loaded ID 25258, file Wcoast_stream0.IPL
+Loaded ID 20895, file lapd1.txd
+Loaded ID 20641, file male01.txd
+Loaded ID 20210, file a6pol.txd
+Loaded ID 280, file lapd1.dff
+Loaded ID 7, file male01.dff
+Loaded ID 596, file a6pol.dff
+Loaded ID 20605, file colt45.txd
+Loaded ID 20604, file missile.txd
+Loaded ID 20594, file nitestick.txd
+Loaded ID 25608, file colt45.ifp
+Loaded ID 346, file colt45.dff
+Loaded ID 345, file missile.dff
+Loaded ID 334, file nitestick.dff
+Loaded ID 25645, file int_house.ifp
+Loaded ID 25646, file int_office.ifp
+Loaded ID 21811, file ingame.txd
+Loaded ID 1317, file cylinder.dff
+Loaded ID 1316, file hoop.dff
+Loaded ID 21885, file diamond.txd
+Loaded ID 1559, file diamond_3.dff
+Loaded ID 20633, file player.txd
+Loaded ID 0, file 
+Loaded ID 25011, file procobj.col
+Loaded ID 25015, file mod_int.col
+Loaded ID 25023, file barriers.col
+Loaded ID 25028, file dynamic.col
+Loaded ID 25029, file dynamic2.col
+Loaded ID 25031, file levelxre.col
+Loaded ID 25033, file procobj.col
+Loaded ID 25037, file gamemods.col
+Loaded ID 25039, file arz_bld.col
+Loaded ID 25042, file edovo.col
+Loaded ID 25044, file map_bild.col
+Loaded ID 25045, file map_gen.col
+Loaded ID 25046, file map_landP1.col
+Loaded ID 25047, file map_landP2.col
+Loaded ID 25048, file map_landP3.col
+Loaded ID 25049, file map_landP4.col
+Loaded ID 25050, file new_ltk.col
+Loaded ID 25051, file pdd.col
+Loaded ID 25053, file ryazan.col
+Loaded ID 25054, file Scoast.col
+Loaded ID 25055, file trees.col
+Loaded ID 25056, file Wcoast.col
+Loaded ID 25057, file zhd_rodina.col
+Loaded ID 25258, file Wcoast_stream0.IPL
+Loaded ID 25259, file arz_bld_stream0.IPL
+Loaded ID 25260, file arz_bld_stream1.IPL
+Loaded ID 25625, file fight_e.ifp
+Loaded ID 25511, file nodes0.dat
+Loaded ID 25512, file nodes1.dat
+Loaded ID 25521, file nodes10.dat
+Loaded ID 25522, file nodes11.dat
+Loaded ID 25523, file nodes12.dat
+Loaded ID 25524, file nodes13.dat
+Loaded ID 25525, file nodes14.dat
+Loaded ID 25526, file nodes15.dat
+Loaded ID 25527, file nodes16.dat
+Loaded ID 25528, file nodes17.dat
+Loaded ID 25529, file nodes18.dat
+Loaded ID 25530, file nodes19.dat
+Loaded ID 25513, file nodes2.dat
+Loaded ID 25531, file nodes20.dat
+Loaded ID 25532, file nodes21.dat
+Loaded ID 25533, file nodes22.dat
+Loaded ID 25534, file nodes23.dat
+Loaded ID 25535, file nodes24.dat
+Loaded ID 25536, file nodes25.dat
+Loaded ID 25537, file nodes26.dat
+Loaded ID 25538, file nodes27.dat
+Loaded ID 25539, file nodes28.dat
+Loaded ID 25540, file nodes29.dat
+Loaded ID 25514, file nodes3.dat
+Loaded ID 25541, file nodes30.dat
+Loaded ID 25542, file nodes31.dat
+Loaded ID 25543, file nodes32.dat
+Loaded ID 25544, file nodes33.dat
+Loaded ID 25545, file nodes34.dat
+Loaded ID 25546, file nodes35.dat
+Loaded ID 25547, file nodes36.dat
+Loaded ID 25548, file nodes37.dat
+Loaded ID 25549, file nodes38.dat
+Loaded ID 25550, file nodes39.dat
+Loaded ID 25515, file nodes4.dat
+Loaded ID 25551, file nodes40.dat
+Loaded ID 25552, file nodes41.dat
+Loaded ID 25553, file nodes42.dat
+Loaded ID 25554, file nodes43.dat
+Loaded ID 25555, file nodes44.dat
+Loaded ID 25556, file nodes45.dat
+Loaded ID 25557, file nodes46.dat
+Loaded ID 25558, file nodes47.dat
+Loaded ID 25559, file nodes48.dat
+Loaded ID 25560, file nodes49.dat
+Loaded ID 25516, file nodes5.dat
+Loaded ID 25561, file nodes50.dat
+Loaded ID 25562, file nodes51.dat
+Loaded ID 25563, file nodes52.dat
+Loaded ID 25564, file nodes53.dat
+Loaded ID 25565, file nodes54.dat
+Loaded ID 25566, file nodes55.dat
+Loaded ID 25567, file nodes56.dat
+Loaded ID 25568, file nodes57.dat
+Loaded ID 25569, file nodes58.dat
+Loaded ID 25570, file nodes59.dat
+Loaded ID 25517, file nodes6.dat
+Loaded ID 25571, file nodes60.dat
+Loaded ID 25572, file nodes61.dat
+Loaded ID 25573, file nodes62.dat
+Loaded ID 25574, file nodes63.dat
+Loaded ID 25518, file nodes7.dat
+Loaded ID 25519, file nodes8.dat
+Loaded ID 25520, file nodes9.dat
+Loaded ID 22152, file LODarz_diana.txd
+Loaded ID 22165, file LODb88adm.txd
+Loaded ID 22159, file LODfactory.txd
+Loaded ID 22281, file LODcombul_velo4.txd
+Loaded ID 25257, file Scoast_stream1.ipl
+Loaded ID 20591, file cellphone.txd
+Loaded ID 20601, file grenade.txd
+Loaded ID 20603, file molotov.txd
+Loaded ID 20602, file teargas.txd
+Loaded ID 22619, file h2_house.txd
+Loaded ID 22620, file LODh2_house.txd
+Loaded ID 21853, file break_bar.txd
+Loaded ID 21847, file cj_bar.txd
+Loaded ID 22342, file LODland_house.txd
+Loaded ID 22079, file paracx.txd
+Loaded ID 21852, file player_props.txd
+Loaded ID 22390, file railtxd.txd
+Loaded ID 21399, file LODland_dop.txd
+Loaded ID 10337, file h2_fence10.dff
+Loaded ID 10326, file h2_house10.dff
+Loaded ID 8839, file KAD_otboy_2.dff
+Loaded ID 10191, file LODh2_garage1.dff
+Loaded ID 5485, file LODh2_house1.dff
+Loaded ID 10327, file LODh2_house10.dff
+Loaded ID 10300, file LODh2_house3.dff
+Loaded ID 10312, file LODh2_house4.dff
+Loaded ID 10316, file LODh2_house5.dff
+Loaded ID 10321, file LODh2_house7.dff
+Loaded ID 10323, file LODh2_house8.dff
+Loaded ID 3539, file LOD_bereg_9_1.dff
+Loaded ID 5487, file LOD_bereg_9_2.dff
+Loaded ID 8963, file LOD_bereg_9_3.dff
+Loaded ID 21409, file new_year_s.txd
+Loaded ID 1543, file cj_beer_b_2.dff
+Loaded ID 1485, file cj_ciggy.dff
+Loaded ID 1546, file cj_pint_glass.dff
+Loaded ID 1486, file dyn_beer_1.dff
+Loaded ID 3131, file parachute.dff
+Loaded ID 25578, file bar.ifp
+Loaded ID 25622, file fight_b.ifp
+Loaded ID 25623, file fight_c.ifp
+Loaded ID 25624, file fight_d.ifp
+Loaded ID 25632, file gangs.ifp
+Loaded ID 25640, file grenade.ifp
+Loaded ID 25666, file parachute.ifp
+Loaded ID 25668, file paulnmac.ifp
+Loaded ID 25709, file vending.ifp
+Loaded ID 330, file cellphone.dff
+Loaded ID 342, file grenade.dff
+Loaded ID 344, file molotov.dff
+Loaded ID 343, file teargas.dff
+Loaded ID 21398, file LOD_land.txd
+Loaded ID 21404, file sm_bilding.txd
+Loaded ID 3542, file LODbeta2SEzaglu1.dff
+Loaded ID 3543, file LODbeta2SEzaglu2.dff
+Loaded ID 9412, file LODspytrack01.dff
+Loaded ID 8880, file LODurm_river01.dff
+Loaded ID 8476, file LOD_bereg_10.dff
+Loaded ID 8544, file LOD_bereg_11.dff
+Loaded ID 8576, file LOD_bereg_12.dff
+Loaded ID 8085, file LOD_bereg_13.dff
+Loaded ID 8480, file LOD_bereg_7.dff
+Loaded ID 8472, file LOD_bereg_8.dff
+Loaded ID 8474, file LOD_bereg_9.dff
+Loaded ID 5457, file LOD_bereg_9_a.dff
+Loaded ID 5042, file LOD_bereg_9_b.dff
+Loaded ID 3535, file LOD_bereg_9_c.dff
+Loaded ID 3537, file LOD_bereg_9_d.dff
+Loaded ID 5490, file LOD_bereg_9_f.dff
+Loaded ID 8478, file LOD_bus1.dff
+Loaded ID 13232, file LOD_dno33.dff
+Loaded ID 13240, file LOD_dno37.dff
+Loaded ID 13242, file LOD_dno38.dff
+Loaded ID 8526, file LOD_KAD_Bereg6.dff
+Loaded ID 8521, file LOD_KAD_Bereg7.dff
+Loaded ID 5339, file LOD_KAD_Bereg8.dff
+Loaded ID 5348, file LOD_KAD_Bereg9a.dff
+Loaded ID 8513, file LOD_kor_01.dff
+Loaded ID 8524, file LOD_kor_02.dff
+Loaded ID 8517, file LOD_kor_03.dff
+Loaded ID 5766, file LOD_kor_04.dff
+Loaded ID 21395, file c_market.txd
+Loaded ID 21394, file buildings1.txd
+Loaded ID 21393, file POTIK.txd
+Loaded ID 21392, file oil_base.txd
+Loaded ID 21397, file land_dop.txd
+Loaded ID 21396, file land_rodina.txd
+Loaded ID 20000, file 
+Loaded ID 20001, file 
+Loaded ID 20002, file 
+Loaded ID 20003, file 
+Loaded ID 20000, file 
+Loaded ID 20001, file 
+Loaded ID 384, file 
+Loaded ID 385, file 
+Loaded ID 386, file 
+Loaded ID 387, file 
+Loaded ID 388, file 
+Loaded ID 20630, file gun_para.txd
+Loaded ID 21396, file land_rodina.txd
+Loaded ID 13239, file gor_dno37.dff
+Loaded ID 8484, file new_bereg_11.dff
+Loaded ID 8575, file new_bereg_12.dff
+Loaded ID 5338, file new_KAD_Bereg8.dff
+Loaded ID 371, file gun_para.dff
+Loaded ID 3540, file beta2_SE_zaglu1.dff
+Loaded ID 5220, file LODgar_land07.dff
+Loaded ID 5333, file LODlu_fix4.dff
+Loaded ID 7543, file LODoilbase1_terr_1.dff
+Loaded ID 8530, file LODSouthzemlia_37.dff
+Loaded ID 5422, file LODt_KAD.dff
+Loaded ID 8947, file LODurmtclot.dff
+Loaded ID 8949, file LODurmtcroad.dff
+Loaded ID 8951, file LODurm_adr1.dff
+Loaded ID 8844, file LODurm_hw_tunnel.dff
+Loaded ID 10372, file LODurm_port1.dff
+Loaded ID 7551, file LODurm_rgd01.dff
+Loaded ID 7552, file LODurm_rgd02.dff
+Loaded ID 8881, file LODurm_river02.dff
+Loaded ID 8574, file LOD_bereg_14.dff
+Loaded ID 17702, file LOD_bereg_14b.dff
+Loaded ID 8578, file LOD_bereg_15.dff
+Loaded ID 8950, file LOD_bereg_16.dff
+Loaded ID 8562, file LOD_bereg_17.dff
+Loaded ID 8564, file LOD_bereg_18.dff
+Loaded ID 8837, file LOD_bereg_19.dff
+Loaded ID 8838, file LOD_bereg_20.dff
+Loaded ID 5337, file LOD_bereg_20a.dff
+Loaded ID 5335, file LOD_bereg_21.dff
+Loaded ID 13234, file LOD_dno34.dff
+Loaded ID 13236, file LOD_dno35.dff
+Loaded ID 13238, file LOD_dno36.dff
+Loaded ID 13244, file LOD_dno39.dff
+Loaded ID 5400, file LOD_KAD_Bereg10.dff
+Loaded ID 5402, file LOD_KAD_Bereg11.dff
+Loaded ID 5345, file LOD_KAD_Bereg9.dff
+Loaded ID 5351, file LOD_KAD_Bereg9b.dff
+Loaded ID 5404, file LOD_tun.dff
+Loaded ID 22383, file LOD_baza_cel.txd
+Loaded ID 22144, file LODbuildings1.txd
+Loaded ID 22381, file LODoil_base.txd
+Loaded ID 22369, file LODAZStxd.txd
+Loaded ID 22445, file LODcars_bild.txd
+Loaded ID 22510, file LODgardom1.txd
+Loaded ID 22516, file LODgarel_banya1.txd
+Loaded ID 22371, file LODMcdTXD.txd
+Loaded ID 22535, file LODmlt_baza.txd
+Loaded ID 22427, file LODpier_texture.txd
+Loaded ID 22361, file LODt_railway.txd
+Loaded ID 22508, file armbldLOD.txd
+Loaded ID 18550, file LODarmy_barrack_1.dff
+Loaded ID 18546, file LODarmy_hangar_1.dff
+Loaded ID 18542, file LODarmy_post_1.dff
+Loaded ID 18533, file LODarmy_tower_1.dff
+Loaded ID 18531, file LODarmy_warehouse_1.dff
+Loaded ID 5231, file LODgardom1.dff
+Loaded ID 5263, file LODgarel_banya1.dff
+Loaded ID 18187, file LODgas_base_gm.dff
+Loaded ID 18190, file LODgas_build_gm.dff
+Loaded ID 18193, file LODgas_price_gm.dff
+Loaded ID 18186, file LODgas_propane.dff
+Loaded ID 2711, file LODlb_railway2.dff
+Loaded ID 7443, file LODoilbase1_build_1.dff
+Loaded ID 7445, file LODoilbase1_pipe_1.dff
+Loaded ID 6994, file LODoilbase1_storg_1.dff
+Loaded ID 6996, file LODoilbase1_wareh_1.dff
+Loaded ID 6998, file LODoilbase1_wareh_2.dff
+Loaded ID 17710, file LODos_build_ford.dff
+Loaded ID 18065, file LODr_pierce_fri.dff
+Loaded ID 17673, file LODtrk_hngr.dff
+Loaded ID 2738, file LODt_railway12.dff
+Loaded ID 8955, file LODurm_adr4.dff
+Loaded ID 16952, file LODurm_arz2_mc.dff
+Loaded ID 8948, file LODurm_grad.dff
+Loaded ID 8528, file LOD_baza_cel.dff
+Loaded ID 22749, file smartphones.txd
+Loaded ID 10765, file motoedge.dff
+Loaded ID 22909, file medic_substation.txd
+Loaded ID 2441, file medic_substamap1.dff
+Loaded ID 22801, file mcTXD.txd
+Loaded ID 18008, file McProp021.dff
+Loaded ID 20087, file dinghy.txd
+Loaded ID 473, file dinghy.dff
+Loaded ID 20049, file trail.txd
+Loaded ID 435, file trail.dff
+Loaded ID 25590, file bikev.ifp
+Loaded ID 20076, file hondaz50.txd
+Loaded ID 462, file hondaz50.dff
+Loaded ID 20050, file amgcls53t.txd
+Loaded ID 436, file amgcls53t.dff
+Loaded ID 20056, file jig1300.txd
+Loaded ID 442, file jig1300.dff
+Loaded ID 20063, file tatrat2.txd
+Loaded ID 25708, file van.ifp
+Loaded ID 449, file tatrat2.dff
+Loaded ID 20135, file izh.txd
+Loaded ID 25712, file wayfarer.ifp
+Loaded ID 521, file izh.dff
+Loaded ID 20016, file e63.txd
+Loaded ID 402, file e63.dff
+Loaded ID 20149, file pcayenne.txd
+Loaded ID 535, file pcayenne.dff
+Loaded ID 20168, file gaze3302.txd
+Loaded ID 554, file gaze3302.dff
+Loaded ID 20081, file v2107.txd
+Loaded ID 467, file v2107.dff
+Loaded ID 20165, file evolancer.txd
+Loaded ID 551, file evolancer.dff
+Loaded ID 20036, file buhanka.txd
+Loaded ID 422, file buhanka.dff
+Loaded ID 20075, file mb1000rr.txd
+Loaded ID 25589, file bikes.ifp
+Loaded ID 461, file mb1000rr.dff
+Loaded ID 20132, file eraz.txd
+Loaded ID 518, file eraz.dff
+Loaded ID 20143, file bmwm508.txd
+Loaded ID 529, file bmwm508.dff
+Loaded ID 20166, file vis1705.txd
+Loaded ID 552, file vis1705.dff
+Loaded ID 20188, file damas.txd
+Loaded ID 574, file damas.dff
+Loaded ID 20060, file squalo.txd
+Loaded ID 446, file squalo.dff
+Loaded ID 20133, file yak40.txd
+Loaded ID 25607, file coach.ifp
+Loaded ID 519, file yak40.dff
+Loaded ID 25683, file rustler.ifp
+Loaded ID 20134, file hydra8a.txd
+Loaded ID 520, file hydra8a.dff
+Loaded ID 20154, file 2170p.txd
+Loaded ID 540, file 2170p.dff
+Loaded ID 20180, file vaz2104.txd
+Loaded ID 566, file vaz2104.dff
+Loaded ID 20193, file mbg63.txd
+Loaded ID 579, file mbg63.dff
+Loaded ID 20216, file m22016.txd
+Loaded ID 602, file m22016.dff
+Loaded ID 20015, file intergen.txd
+Loaded ID 401, file intergen.dff
+Loaded ID 20019, file chaser.txd
+Loaded ID 405, file chaser.dff
+Loaded ID 20022, file trakker500.txd
+Loaded ID 408, file trakker500.dff
+Loaded ID 20023, file panamera17.txd
+Loaded ID 409, file panamera17.dff
+Loaded ID 20026, file galant87.txd
+Loaded ID 412, file galant87.dff
+Loaded ID 20043, file a45.txd
+Loaded ID 429, file a45.dff
+Loaded ID 20080, file m5f90.txd
+Loaded ID 466, file m5f90.dff
+Loaded ID 20095, file bmxmicy.txd
+Loaded ID 25592, file bmx.ifp
+Loaded ID 481, file bmxmicy.dff
+Loaded ID 20098, file marquis.txd
+Loaded ID 484, file marquis.dff
+Loaded ID 20111, file r44raven2.txd
+Loaded ID 497, file r44raven2.dff
+Loaded ID 20025, file laguna.txd
+Loaded ID 411, file laguna.dff
+Loaded ID 20065, file huramante.txd
+Loaded ID 451, file huramante.dff
+Loaded ID 20077, file hdfls19.txd
+Loaded ID 463, file hdfls19.dff
+Loaded ID 25586, file biked.ifp
+Loaded ID 20082, file fortecross.txd
+Loaded ID 468, file fortecross.dff
+Loaded ID 20084, file gaz2975.txd
+Loaded ID 470, file gaz2975.dff
+Loaded ID 20106, file vaz2109.txd
+Loaded ID 492, file vaz2109.dff
+Loaded ID 20147, file bmwm590.txd
+Loaded ID 533, file bmwm590.dff
+Loaded ID 20194, file amgc63s.txd
+Loaded ID 580, file amgc63s.dff
+Loaded ID 20024, file audis8.txd
+Loaded ID 410, file audis8.dff
+Loaded ID 20031, file levi.txd
+Loaded ID 417, file levi.dff
+Loaded ID 20040, file bmw750i16.txd
+Loaded ID 426, file bmw750i16.dff
+Loaded ID 20057, file kamaz5320.txd
+Loaded ID 25706, file truck.ifp
+Loaded ID 443, file kamaz5320.dff
+Loaded ID 20059, file passatb712.txd
+Loaded ID 445, file passatb712.dff
+Loaded ID 20067, file parker2520.txd
+Loaded ID 453, file parker2520.dff
+Loaded ID 20070, file mcenter.txd
+Loaded ID 456, file mcenter.dff
+Loaded ID 20088, file 2115.txd
+Loaded ID 474, file 2115.dff
+Loaded ID 20089, file x5mcomp.txd
+Loaded ID 475, file x5mcomp.dff
+Loaded ID 20101, file bellk.txd
+Loaded ID 487, file bellk.dff
+Loaded ID 20118, file viper.txd
+Loaded ID 25584, file bf_injection.ifp
+Loaded ID 504, file viper.dff
+Loaded ID 20124, file velobike.txd
+Loaded ID 510, file velobike.dff
+Loaded ID 20141, file 2113gr.txd
+Loaded ID 527, file 2113gr.dff
+Loaded ID 20150, file rs6.txd
+Loaded ID 536, file rs6.dff
+Loaded ID 20172, file subimprsti.txd
+Loaded ID 558, file subimprsti.dff
+Loaded ID 20181, file camry70.txd
+Loaded ID 567, file camry70.dff
+Loaded ID 20184, file vagpid.txd
+Loaded ID 570, file vagpid.dff
+Loaded ID 20018, file mazdamp626.txd
+Loaded ID 404, file mazdamp626.dff
+Loaded ID 20030, file ftransitvan14.txd
+Loaded ID 416, file ftransitvan14.dff
+Loaded ID 20033, file volcr32.txd
+Loaded ID 419, file volcr32.dff
+Loaded ID 20039, file mi24.txd
+Loaded ID 425, file mi24.dff
+Loaded ID 20046, file t80utrak.txd
+Loaded ID 25702, file tank.ifp
+Loaded ID 432, file t80utrak.dff
+Loaded ID 20052, file ars5.txd
+Loaded ID 438, file ars5.dff
+Loaded ID 20053, file lada112.txd
+Loaded ID 439, file lada112.dff
+Loaded ID 20055, file minbandit.txd
+Loaded ID 441, file minbandit.dff
+Loaded ID 20058, file monster.txd
+Loaded ID 444, file monster.dff
+Loaded ID 20066, file speeder.txd
+Loaded ID 452, file speeder.dff
+Loaded ID 20072, file caravan.txd
+Loaded ID 458, file caravan.dff
+Loaded ID 20079, file rcraider.txd
+Loaded ID 465, file rcraider.dff
+Loaded ID 20083, file r44rav.txd
+Loaded ID 469, file r44rav.dff
+Loaded ID 20093, file legacy90.txd
+Loaded ID 479, file legacy90.dff
+Loaded ID 20107, file jetmax.txd
+Loaded ID 493, file jetmax.dff
+Loaded ID 20108, file chiron.txd
+Loaded ID 494, file chiron.dff
+Loaded ID 20110, file skdsupb.txd
+Loaded ID 496, file skdsupb.dff
+Loaded ID 20119, file land200r.txd
+Loaded ID 505, file land200r.dff
+Loaded ID 20129, file scaniap440.txd
+Loaded ID 515, file scaniap440.dff
+Loaded ID 20155, file amggtrs.txd
+Loaded ID 541, file amggtrs.dff
+Loaded ID 25022, file all_mp_cols.col
+Loaded ID 22617, file LODjnky1.txd
+Loaded ID 22511, file LODgardom2.txd
+Loaded ID 22512, file LODgardom3.txd
+Loaded ID 22513, file LODgardom4.txd
+Loaded ID 22514, file LODgarel_alkash.txd
+Loaded ID 22515, file LODgarel_ambar.txd
+Loaded ID 22517, file LODgarel_baryshY.txd
+Loaded ID 22518, file LODgarel_bel.txd
+Loaded ID 22519, file LODgarel_branz.txd
+Loaded ID 22544, file LODgarel_break_up.txd
+Loaded ID 22543, file LODgarel_dvorplus.txd
+Loaded ID 22520, file LODgarel_garage2.txd
+Loaded ID 22521, file LODgarel_gruzd.txd
+Loaded ID 22522, file LODgarel_ivanov.txd
+Loaded ID 22523, file LODgarel_kolodez1.txd
+Loaded ID 22524, file LODgarel_micro.txd
+Loaded ID 22525, file LODgarel_mini.txd
+Loaded ID 22526, file LODgarel_most.txd
+Loaded ID 22540, file LODgarel_tramp.txd
+Loaded ID 22541, file LODgarel_varvar.txd
+Loaded ID 22542, file LODgarel_w3.txd
+Loaded ID 22509, file LODgarlep.txd
+Loaded ID 22230, file LODgarmel.txd
+Loaded ID 22601, file LODhouse_major.txd
+Loaded ID 22365, file LODRGD_texture.txd
+Loaded ID 22338, file LOD_land2.txd
+Loaded ID 22353, file LODsm_bilding.txd
+Loaded ID 8074, file LODA-S_highway1.dff
+Loaded ID 8075, file LODA-S_highway2.dff
+Loaded ID 3558, file LODbys_westland3.dff
+Loaded ID 17475, file LODcot_1.dff
+Loaded ID 17478, file LODcot_1_garage.dff
+Loaded ID 17473, file LODcot_3.dff
+Loaded ID 17480, file LODcot_3_garage.dff
+Loaded ID 13026, file LODcot_3_terr.dff
+Loaded ID 17472, file LODcot_4.dff
+Loaded ID 17481, file LODcot_4_garage.dff
+Loaded ID 13028, file LODcot_4_terr.dff
+Loaded ID 17477, file LODcot_5.dff
+Loaded ID 17482, file LODcot_5_garage.dff
+Loaded ID 8405, file LODEastmatland01.dff
+Loaded ID 8406, file LODEastmatland02.dff
+Loaded ID 8407, file LODEastmatland03.dff
+Loaded ID 8408, file LODEastmatland04.dff
+Loaded ID 8409, file LODEastmatland05.dff
+Loaded ID 8416, file LODEastmatland12.dff
+Loaded ID 8542, file LODEastN_coast5.dff
+Loaded ID 8543, file LODEastN_coast6.dff
+Loaded ID 5234, file LODgardom2.dff
+Loaded ID 5236, file LODgardom3.dff
+Loaded ID 5260, file LODgardom4.dff
+Loaded ID 5261, file LODgarel_alkash.dff
+Loaded ID 5262, file LODgarel_ambar.dff
+Loaded ID 5264, file LODgarel_barysh2Y.dff
+Loaded ID 5265, file LODgarel_baryshY.dff
+Loaded ID 5266, file LODgarel_bel.dff
+Loaded ID 5267, file LODgarel_branz.dff
+Loaded ID 5283, file LODgarel_break_up.dff
+Loaded ID 5281, file LODGarel_dvor.dff
+Loaded ID 5268, file LODgarel_garage2.dff
+Loaded ID 5269, file LODgarel_gruzd.dff
+Loaded ID 5270, file LODgarel_ivanov.dff
+Loaded ID 5285, file LODgarel_ivanov2.dff
+Loaded ID 5271, file LODgarel_kolodez1.dff
+Loaded ID 5272, file LODgarel_micro.dff
+Loaded ID 5273, file LODgarel_mini.dff
+Loaded ID 5274, file LODgarel_most.dff
+Loaded ID 5275, file LODgarel_tramp.dff
+Loaded ID 5276, file LODgarel_varvar.dff
+Loaded ID 5277, file LODgarel_w3.dff
+Loaded ID 5282, file LODgarel_zherd.dff
+Loaded ID 5228, file LODgarlep1.dff
+Loaded ID 5229, file LODgarlep2.dff
+Loaded ID 5238, file LODgarmel.dff
+Loaded ID 5213, file LODgar_asfroad.dff
+Loaded ID 5214, file LODgar_land01.dff
+Loaded ID 5215, file LODgar_land02.dff
+Loaded ID 5216, file LODgar_land03.dff
+Loaded ID 5217, file LODgar_land04.dff
+Loaded ID 5218, file LODgar_land05.dff
+Loaded ID 5219, file LODgar_land06.dff
+Loaded ID 5221, file LODgar_land08.dff
+Loaded ID 5222, file LODgar_land09.dff
+Loaded ID 5223, file LODgar_land10.dff
+Loaded ID 5224, file LODgar_land11.dff
+Loaded ID 5225, file LODgar_land12.dff
+Loaded ID 18188, file LODgas_base_lukoil.dff
+Loaded ID 18189, file LODgas_base_shell.dff
+Loaded ID 18191, file LODgas_build_lukoil.dff
+Loaded ID 18192, file LODgas_build_shell.dff
+Loaded ID 18194, file LODgas_price_lukoil.dff
+Loaded ID 18195, file LODgas_price_shell.dff
+Loaded ID 8877, file LODjnky1_office_1.dff
+Loaded ID 8904, file LODjnky1_pressb_1.dff
+Loaded ID 8879, file LODjnky1_wareh_1.dff
+Loaded ID 17735, file LODlb_railway10.dff
+Loaded ID 2715, file LODlb_railway4a.dff
+Loaded ID 13436, file LODm_river2.dff
+Loaded ID 13438, file LODm_river3.dff
+Loaded ID 13440, file LODm_river4.dff
+Loaded ID 9578, file LODsm_build_1.dff
+Loaded ID 9580, file LODsm_build_2.dff
+Loaded ID 9582, file LODsm_build_3.dff
+Loaded ID 9586, file LODsm_factory_1.dff
+Loaded ID 9612, file LODsm_tower_1.dff
+Loaded ID 8506, file LODSouthzemlia_13.dff
+Loaded ID 8508, file LODSouthzemlia_15.dff
+Loaded ID 8510, file LODSouthzemlia_17.dff
+Loaded ID 8518, file LODSouthzemlia_25.dff
+Loaded ID 8519, file LODSouthzemlia_26.dff
+Loaded ID 8520, file LODSouthzemlia_27.dff
+Loaded ID 2867, file LODSouthzemlia_27r.dff
+Loaded ID 8531, file LODSouthzemlia_38.dff
+Loaded ID 2735, file LODt_railway10.dff
+Loaded ID 2736, file LODt_railway11.dff
+Loaded ID 2737, file LODt_railway11a.dff
+Loaded ID 2739, file LODt_railway13.dff
+Loaded ID 2740, file LODt_railway14.dff
+Loaded ID 8969, file LODurm_ctr_fix3.dff
+Loaded ID 8834, file LODurm_highway04.dff
+Loaded ID 8835, file LODurm_highway05.dff
+Loaded ID 8836, file LODurm_highway06.dff
+Loaded ID 8840, file LODurm_highway_azs.dff
+Loaded ID 8842, file LODurm_highway_azs2.dff
+Loaded ID 8843, file LODurm_highway_post.dff
+Loaded ID 8959, file LODurm_novoles_g.dff
+Loaded ID 8960, file LODurm_novoles_r.dff
+Loaded ID 7553, file LODurm_rgd03.dff
+Loaded ID 7554, file LODurm_rgd04.dff
+Loaded ID 13276, file LODurm_rgd31.dff
+Loaded ID 13278, file LODurm_rgd32.dff
+Loaded ID 13280, file LODurm_rgd33.dff
+Loaded ID 8882, file LODurm_river03.dff
+Loaded ID 8883, file LODurm_river04.dff
+Loaded ID 13109, file LODzaprava4.dff
+Loaded ID 8486, file LOD_bereg_5.dff
+Loaded ID 8488, file LOD_bereg_5a.dff
+Loaded ID 8490, file LOD_bereg_6.dff
+Loaded ID 8465, file LOD_bus2.dff
+Loaded ID 8467, file LOD_bus3.dff
+Loaded ID 13214, file LOD_dno24.dff
+Loaded ID 13216, file LOD_dno25.dff
+Loaded ID 13218, file LOD_dno26.dff
+Loaded ID 13220, file LOD_dno27.dff
+Loaded ID 13222, file LOD_dno28.dff
+Loaded ID 13224, file LOD_dno29.dff
+Loaded ID 13248, file LOD_dno29_1.dff
+Loaded ID 13226, file LOD_dno30.dff
+Loaded ID 13228, file LOD_dno31.dff
+Loaded ID 13230, file LOD_dno32.dff
+Loaded ID 13246, file LOD_dno40.dff
+Loaded ID 8535, file LOD_KAD_Bereg3.dff
+Loaded ID 8537, file LOD_KAD_Bereg4.dff
+Loaded ID 8529, file LOD_KAD_Bereg5.dff
+Loaded ID 5453, file LOD_kor_04_bridge.dff
+Loaded ID 5773, file LOD_kor_05.dff
+Loaded ID 5798, file LOD_kor_06.dff
+Loaded ID 5765, file LOD_kor_07.dff
+Loaded ID 5631, file LOD_kor_09.dff
+Loaded ID 5627, file LOD_kor_10.dff
+Loaded ID 5626, file LOD_kor_11.dff
+Loaded ID 5455, file LOD_kor_11_bridge.dff
+Loaded ID 5629, file LOD_kor_12.dff
+Loaded ID 5628, file LOD_kor_13.dff
+Loaded ID 5797, file LOD_kor_19.dff
+Loaded ID 5616, file LOD_kor_20.dff
+Loaded ID 8516, file LOD_kor_21.dff
+Loaded ID 8498, file LOD_kor_23.dff
+Loaded ID 8192, file LOD_kor_24.dff
+Loaded ID 8505, file LOD_kor_38.dff
+Loaded ID 8494, file LOD_kor_39.dff
+Loaded ID 8495, file LOD_kor_40.dff
+Loaded ID 5493, file LOD_kor_41.dff
+Loaded ID 13274, file LOD_railmostFix.dff
+Loaded ID 2865, file LOD_rgd03peron.dff
+Loaded ID 13272, file LOD_rm_oporaF.dff
+Loaded ID 25579, file baseball.ifp
+Loaded ID 25580, file bd_fire.ifp
+Loaded ID 25581, file beach.ifp
+Loaded ID 25582, file beast_anim.ifp
+Loaded ID 25583, file benchpress.ifp
+Loaded ID 25593, file bomber.ifp
+Loaded ID 25595, file bsktball.ifp
+Loaded ID 25598, file camera.ifp
+Loaded ID 25599, file car.ifp
+Loaded ID 25600, file car_chat.ifp
+Loaded ID 25601, file carry.ifp
+Loaded ID 25602, file casino.ifp
+Loaded ID 25604, file chainsaw.ifp
+Loaded ID 25609, file cop_ambient.ifp
+Loaded ID 25611, file crack.ifp
+Loaded ID 25612, file crib.ifp
+Loaded ID 25614, file dancing.ifp
+Loaded ID 25615, file dealer.ifp
+Loaded ID 25621, file fat.ifp
+Loaded ID 25630, file food.ifp
+Loaded ID 25631, file freeweights.ifp
+Loaded ID 25634, file ghands.ifp
+Loaded ID 25637, file goggles.ifp
+Loaded ID 25638, file graffiti.ifp
+Loaded ID 25639, file graveyard.ifp
+Loaded ID 25641, file guitar.ifp
+Loaded ID 25642, file gymnasium.ifp
+Loaded ID 25644, file heist9.ifp
+Loaded ID 25647, file int_shop.ifp
+Loaded ID 25648, file jst_buisness.ifp
+Loaded ID 25650, file kissing.ifp
+Loaded ID 25651, file knife.ifp
+Loaded ID 25652, file ladder.ifp
+Loaded ID 25656, file lowrider.ifp
+Loaded ID 25659, file medic.ifp
+Loaded ID 25660, file misc.ifp
+Loaded ID 25664, file on_lookers.ifp
+Loaded ID 25665, file otb.ifp
+Loaded ID 25671, file police.ifp
+Loaded ID 25677, file rapping.ifp
+Loaded ID 25679, file riot.ifp
+Loaded ID 25680, file rob_bank.ifp
+Loaded ID 25684, file ryder.ifp
+Loaded ID 25685, file scratching.ifp
+Loaded ID 25688, file shop.ifp
+Loaded ID 25691, file skate.ifp
+Loaded ID 25692, file smoking.ifp
+Loaded ID 25694, file snm.ifp
+Loaded ID 25695, file spraycan.ifp
+Loaded ID 25696, file strip.ifp
+Loaded ID 25698, file swat.ifp
+Loaded ID 25699, file sweet.ifp
+Loaded ID 25701, file sword.ifp
+Loaded ID 25711, file Vylet.ifp
+Loaded ID 25715, file wuzi.ifp
+Loaded ID 21347, file m_hair.txd
+Loaded ID 2008, file m_hair_02_01.dff
+Loaded ID 25023, file barriers.col
+Loaded ID 25028, file dynamic.col
+Loaded ID 25031, file levelxre.col
+Loaded ID 25039, file arz_bld.col
+Loaded ID 25040, file arz_bld2.col
+Loaded ID 25041, file arz_land.col
+Loaded ID 25042, file edovo.col
+Loaded ID 25046, file map_landP1.col
+Loaded ID 25047, file map_landP2.col
+Loaded ID 25053, file ryazan.col
+Loaded ID 25055, file trees.col
+Loaded ID 25057, file zhd_rodina.col
+Loaded ID 21350, file m_def.txd
+Loaded ID 21280, file m_s08.txd
+Loaded ID 2175, file m_s08.dff
+Loaded ID 23355, file radar54.txd
+Loaded ID 23354, file radar53.txd
+Loaded ID 25259, file arz_bld_stream0.IPL
+Loaded ID 25260, file arz_bld_stream1.IPL
+Loaded ID 25016, file volzhsk_troya.col
+Loaded ID 22333, file volzhsk_troya.txd
+Loaded ID 22152, file LODarz_diana.txd
+Loaded ID 22150, file LODcmbl_electro.txd
+Loaded ID 22281, file LODcombul_velo4.txd
+Loaded ID 22163, file LODekr_model22.txd
+Loaded ID 22142, file LODmodcraneHD.txd
+Loaded ID 22161, file LODn_houses01.txd
+Loaded ID 22379, file LODrent_box.txd
+Loaded ID 22177, file LODstobTexture.txd
+Loaded ID 22337, file nochie_okna.txd
+Loaded ID 22282, file GangBuildTXD.txd
+Loaded ID 22169, file LODarz_bld.txd
+Loaded ID 22332, file LODc_market.txd
+Loaded ID 22154, file LODarz_kotelcentr.txd
+Loaded ID 22140, file LODcmbl_velotxd.txd
+Loaded ID 22283, file LODfld1_ferma.txd
+Loaded ID 22157, file LODgen_arz_1.txd
+Loaded ID 22185, file LODkalininPACK.txd
+Loaded ID 22367, file LODLukoilStation.txd
+Loaded ID 22263, file LODmalysh.txd
+Loaded ID 22238, file LODost_1.txd
+Loaded ID 22210, file LODost_2.txd
+Loaded ID 22216, file LODost_22.txd
+Loaded ID 22212, file LODost_3.txd
+Loaded ID 22220, file LODost_36.txd
+Loaded ID 22183, file LODprosp_futbol.txd
+Loaded ID 22130, file LODprosp_kopeyka.txd
+Loaded ID 22132, file LODprosp_viraj.txd
+Loaded ID 22267, file LODrusrap.txd
+Loaded ID 22285, file LODRV_arz.txd
+Loaded ID 22188, file LODtran_soccer.txd
+Loaded ID 22204, file LODurmshsb.txd
+Loaded ID 22224, file LODurm_bsmp.txd
+Loaded ID 22208, file LODurm_xxc.txd
+Loaded ID 22248, file LOD_colter.txd
+Loaded ID 22246, file LOD_coltex.txd
+Loaded ID 23356, file radar55.txd
+Loaded ID 23366, file radar65.txd
+Loaded ID 23367, file radar66.txd
+Loaded ID 23368, file radar67.txd
+Loaded ID 23378, file radar77.txd
+Loaded ID 23379, file radar78.txd
+Loaded ID 23380, file radar79.txd
+Loaded ID 22134, file sevas_biglodpack.txd
+Loaded ID 22413, file 5chkaLOD.txd
+Loaded ID 22336, file arz_lights.txd
+Loaded ID 22191, file arz_LOD01.txd
+Loaded ID 22167, file AutoscLOD.txd
+Loaded ID 22261, file gen_five6.txd
+Loaded ID 17990, file LOD2_land_1.dff
+Loaded ID 17992, file LOD2_land_2.dff
+Loaded ID 10712, file LOD3mk-rn_kotel.dff
+Loaded ID 4039, file LODarz_park_02.dff
+Loaded ID 4040, file LODarz_park_03.dff
+Loaded ID 4041, file LODarz_park_04.dff
+Loaded ID 4042, file LODarz_park_05.dff
+Loaded ID 4043, file LODarz_park_06.dff
+Loaded ID 8314, file LODArz_prgrd05.dff
+Loaded ID 17269, file LODAshBuild.dff
+Loaded ID 4099, file LODbg_arbr.dff
+Loaded ID 4331, file LODbld_kopeyka.dff
+Loaded ID 4533, file LODcmbl_dom17-1.dff
+Loaded ID 4530, file LODcmbl_dom2a.dff
+Loaded ID 4531, file LODcmbl_dom2b.dff
+Loaded ID 4580, file LODcmbl_electro.dff
+Loaded ID 4553, file LODcmbl_square.dff
+Loaded ID 4503, file LODcmbl_street01_RD.dff
+Loaded ID 4504, file LODcmbl_street02_RD.dff
+Loaded ID 4505, file LODcmbl_street03_RD.dff
+Loaded ID 4506, file LODcmbl_street04aRD.dff
+Loaded ID 11263, file LODcmbl_street04bPP.dff
+Loaded ID 4507, file LODcmbl_street04bRD.dff
+Loaded ID 4508, file LODcmbl_street05_RD.dff
+Loaded ID 4509, file LODcmbl_street06_RD.dff
+Loaded ID 4510, file LODcmbl_street07_RD.dff
+Loaded ID 4511, file LODcmbl_street08_RD.dff
+Loaded ID 4512, file LODcmbl_street09_RD.dff
+Loaded ID 4513, file LODcmbl_street10_RD.dff
+Loaded ID 4514, file LODcmbl_street11_RD.dff
+Loaded ID 4515, file LODcmbl_street12_RD.dff
+Loaded ID 4537, file LODcmbl_stroyka.dff
+Loaded ID 4520, file LODcmbl_velo1.dff
+Loaded ID 4521, file LODcmbl_velo2.dff
+Loaded ID 4522, file LODcmbl_velo3.dff
+Loaded ID 17484, file LODcoaster_platfrom.dff
+Loaded ID 17483, file LODcoaster_rails.dff
+Loaded ID 9264, file LODcombul_dom17-1_o.dff
+Loaded ID 9292, file LODcombul_dom2b_o.dff
+Loaded ID 4488, file LODcombul_street01.dff
+Loaded ID 4489, file LODcombul_street02.dff
+Loaded ID 4490, file LODcombul_street03.dff
+Loaded ID 4491, file LODcombul_street04a.dff
+Loaded ID 4492, file LODcombul_street04b.dff
+Loaded ID 4493, file LODcombul_street05.dff
+Loaded ID 4494, file LODcombul_street06.dff
+Loaded ID 4495, file LODcombul_street07.dff
+Loaded ID 4496, file LODcombul_street08.dff
+Loaded ID 4497, file LODcombul_street09.dff
+Loaded ID 4498, file LODcombul_street10.dff
+Loaded ID 4499, file LODcombul_street11.dff
+Loaded ID 4500, file LODcombul_street12.dff
+Loaded ID 4642, file LODcombul_velo4.dff
+Loaded ID 17961, file LODcot2_house_1.dff
+Loaded ID 17962, file LODcot2_house_2.dff
+Loaded ID 17963, file LODcot2_house_3.dff
+Loaded ID 17964, file LODcot2_house_4.dff
+Loaded ID 4220, file LODcouroad01.dff
+Loaded ID 4225, file LODcouroad05.dff
+Loaded ID 13406, file LODdom_4x1_lgh.dff
+Loaded ID 3229, file LODdom_kreml_5.dff
+Loaded ID 3230, file LODdom_kreml_7.dff
+Loaded ID 3224, file LODdom_sovetov.dff
+Loaded ID 3346, file LODED_cstlnd.dff
+Loaded ID 3336, file LODED_land2.dff
+Loaded ID 3337, file LODED_road1.dff
+Loaded ID 18042, file LODekr_model22.dff
+Loaded ID 13516, file LODfld1_house_1.dff
+Loaded ID 13518, file LODfld1_wareh_1.dff
+Loaded ID 16962, file LODGandBuild.dff
+Loaded ID 14009, file LODgarage_old_1.dff
+Loaded ID 14008, file LODgarage_old_2.dff
+Loaded ID 14007, file LODgarage_old_3.dff
+Loaded ID 14010, file LODgarage_old_4.dff
+Loaded ID 4410, file LODgen_five3.dff
+Loaded ID 9067, file LODgen_five3_o.dff
+Loaded ID 4413, file LODgen_five6.dff
+Loaded ID 4414, file LODgen_five7.dff
+Loaded ID 13404, file LODgen_five7lght.dff
+Loaded ID 9228, file LODgen_five7_o.dff
+Loaded ID 4415, file LODgen_five8.dff
+Loaded ID 9229, file LODgen_five8_o.dff
+Loaded ID 4447, file LODgen_gar8.dff
+Loaded ID 11004, file LODgorarz02.dff
+Loaded ID 11006, file LODgorarz03.dff
+Loaded ID 11008, file LODgorarz04.dff
+Loaded ID 11010, file LODgorarz05.dff
+Loaded ID 11012, file LODgorarz06.dff
+Loaded ID 11014, file LODgorarz07.dff
+Loaded ID 11016, file LODgorarz08.dff
+Loaded ID 11018, file LODgorarz09.dff
+Loaded ID 11028, file LODgorarz14.dff
+Loaded ID 11030, file LODgorarz15.dff
+Loaded ID 11032, file LODgorarz16.dff
+Loaded ID 11034, file LODgorarz17.dff
+Loaded ID 10961, file LODgorarz2_01.dff
+Loaded ID 10975, file LODgorarz2_07.dff
+Loaded ID 10977, file LODgorarz2_08.dff
+Loaded ID 13051, file LODgor_kad_06A.dff
+Loaded ID 13053, file LODgor_kad_07.dff
+Loaded ID 4296, file LODkalin_cpk.dff
+Loaded ID 4299, file LODkalin_dvor_01.dff
+Loaded ID 4295, file LODkalin_four.dff
+Loaded ID 9230, file LODkalin_four_o.dff
+Loaded ID 4297, file LODkalin_shop1.dff
+Loaded ID 4294, file LODkalin_three.dff
+Loaded ID 9066, file LODkalin_three_o.dff
+Loaded ID 4556, file LODkov2combul.dff
+Loaded ID 4557, file LODkov2combul_RD.dff
+Loaded ID 4031, file LODkov_dom16.dff
+Loaded ID 3223, file LODkreml_nn7.dff
+Loaded ID 6474, file LODl1_terr_1.dff
+Loaded ID 4071, file LODlandarbr01.dff
+Loaded ID 4072, file LODlandarbr02.dff
+Loaded ID 4073, file LODlandarbr03.dff
+Loaded ID 8042, file LODland_kopeyka.dff
+Loaded ID 4023, file LODland_tran_08.dff
+Loaded ID 13402, file LODLGHsian_house.dff
+Loaded ID 13401, file LODlghsp_dom198.dff
+Loaded ID 4074, file LODlitrivpart01.dff
+Loaded ID 4076, file LODlitrivpart03.dff
+Loaded ID 11912, file LODLukoilStation_1.dff
+Loaded ID 11913, file LODLukoilStation_2.dff
+Loaded ID 13065, file LODlun_coost.dff
+Loaded ID 13059, file LODlun_parc1.dff
+Loaded ID 13061, file LODlun_parc2.dff
+Loaded ID 13063, file LODlun_parc3.dff
+Loaded ID 16712, file LODmall1_build_1.dff
+Loaded ID 16713, file LODmall1_build_1_n.dff
+Loaded ID 4095, file LODmalysh.dff
+Loaded ID 18040, file LODmalysh01.dff
+Loaded ID 8054, file LODmaterik_lakeW1.dff
+Loaded ID 4524, file LODmodcraneHD.dff
+Loaded ID 13447, file LODm_alpiysk3.dff
+Loaded ID 11910, file LODNewEdovoBuild018.dff
+Loaded ID 3267, file LODnezinalnd01.dff
+Loaded ID 3268, file LODnezinalnd02.dff
+Loaded ID 9301, file LODnn_ostoghenka8_o.dff
+Loaded ID 9302, file LODnn_ostojd7o.dff
+Loaded ID 9273, file LODnn_PP_9et_o.dff
+Loaded ID 10715, file LODost_1.dff
+Loaded ID 10701, file LODost_2.dff
+Loaded ID 10706, file LODost_22.dff
+Loaded ID 10702, file LODost_3.dff
+Loaded ID 10705, file LODost_36.dff
+Loaded ID 10717, file LODost_7.dff
+Loaded ID 10718, file LODost_8.dff
+Loaded ID 9307, file LODparkov_dom16_o.dff
+Loaded ID 17487, file LODpark_gate.dff
+Loaded ID 4058, file LODpark_last.dff
+Loaded ID 4056, file LODpark_mogila.dff
+Loaded ID 17488, file LODpark_wheel.dff
+Loaded ID 10709, file LODPP_9etage1xA.dff
+Loaded ID 4551, file LODprk_slvmrkt.dff
+Loaded ID 4325, file LODprodom194.dff
+Loaded ID 4573, file LODpropspdom137-1.dff
+Loaded ID 4310, file LODprospst_01.dff
+Loaded ID 4311, file LODprospst_02.dff
+Loaded ID 4282, file LODprosp_colis.dff
+Loaded ID 9258, file LODprosp_dom137-1_o.dff
+Loaded ID 9256, file LODprosp_dom188-1_o.dff
+Loaded ID 9274, file LODprosp_dom192_o.dff
+Loaded ID 9257, file LODprosp_dom194_o.dff
+Loaded ID 9283, file LODprosp_dom198_o.dff
+Loaded ID 4327, file LODprosp_futbol.dff
+Loaded ID 4329, file LODprosp_nick2.dff
+Loaded ID 4332, file LODprosp_viraj.dff
+Loaded ID 4323, file LODpro_d188-1.dff
+Loaded ID 4324, file LODpro_dom192.dff
+Loaded ID 18079, file LODrent_box.dff
+Loaded ID 17742, file LODres1_tower_1.dff
+Loaded ID 13318, file LODres1_tower_1_a.dff
+Loaded ID 17445, file LODrest_building.dff
+Loaded ID 17740, file LODres_tower_2.dff
+Loaded ID 13319, file LODres_tower_2_a.dff
+Loaded ID 4082, file LODroadarbr01.dff
+Loaded ID 4565, file LODrusdom_4x1.dff
+Loaded ID 9071, file LODrusdom_4x1_o.dff
+Loaded ID 4566, file LODrusdom_4x2.dff
+Loaded ID 9079, file LODrusdom_4x2_o.dff
+Loaded ID 4568, file LODrusdom_4x3.dff
+Loaded ID 9069, file LODrusdom_4x3_o.dff
+Loaded ID 4569, file LODrusdom_4x4.dff
+Loaded ID 9080, file LODrusdom_4x4_o.dff
+Loaded ID 4570, file LODrusdom_4x5.dff
+Loaded ID 9317, file LODrusdom_4x5_o.dff
+Loaded ID 4567, file LODrusdom_6x1.dff
+Loaded ID 9115, file LODrusdom_6x1_o.dff
+Loaded ID 4571, file LODrusdom_6x2.dff
+Loaded ID 9214, file LODrusdom_6x2_o.dff
+Loaded ID 4097, file LODrusrap.dff
+Loaded ID 9244, file LODrussian_house_o.dff
+Loaded ID 4349, file LODsev2xd3.dff
+Loaded ID 9318, file LODsevas_2xdom3_o.dff
+Loaded ID 13403, file LODsevas_2xlght.dff
+Loaded ID 9290, file LODsevas_dom186-3_o.dff
+Loaded ID 9285, file LODsevas_dom4n_o.dff
+Loaded ID 9289, file LODsevas_dom8_o.dff
+Loaded ID 4358, file LODsev_bakery.dff
+Loaded ID 4354, file LODsev_d186-3.dff
+Loaded ID 4350, file LODsev_d4n.dff
+Loaded ID 4351, file LODsev_d8.dff
+Loaded ID 4025, file LODsian_house.dff
+Loaded ID 4544, file LODspstreet_03.dff
+Loaded ID 4545, file LODspstreet_03_rd.dff
+Loaded ID 4546, file LODspstreet_04.dff
+Loaded ID 4547, file LODspstreet_04_rd.dff
+Loaded ID 4548, file LODspstreet_05.dff
+Loaded ID 4549, file LODspstreet_05_rd.dff
+Loaded ID 4293, file LODsp_dom198.dff
+Loaded ID 4292, file LODsp_metro.dff
+Loaded ID 17411, file LODsto_b_build.dff
+Loaded ID 11211, file LODtransoccersmall.dff
+Loaded ID 9239, file LODtran_house1_o.dff
+Loaded ID 4298, file LODtran_soccer.dff
+Loaded ID 4096, file LODtunland.dff
+Loaded ID 11241, file LODurmarz1lot1g.dff
+Loaded ID 11238, file LODurmarz1lot1r.dff
+Loaded ID 11245, file LODurmarz1lot2g.dff
+Loaded ID 11243, file LODurmarz1lot2r.dff
+Loaded ID 11252, file LODurmarz1lot3ag.dff
+Loaded ID 11250, file LODurmarz1lot3ar.dff
+Loaded ID 11209, file LODurmarz2lot10g.dff
+Loaded ID 11265, file LODurmarz2lot15r.dff
+Loaded ID 10985, file LODurmarz2lot1g.dff
+Loaded ID 10987, file LODurmarz2lot2g.dff
+Loaded ID 10993, file LODurmarz2lot5g.dff
+Loaded ID 11203, file LODurmarz2lot5r.dff
+Loaded ID 11258, file LODurmshsb.dff
+Loaded ID 11260, file LODurmshsz.dff
+Loaded ID 16953, file LODurm_arz2_mc_lan.dff
+Loaded ID 11149, file LODurm_bsmp.dff
+Loaded ID 11137, file LODurm_gs.dff
+Loaded ID 11300, file LODurm_nalots01.dff
+Loaded ID 11318, file LODurm_nalots07g.dff
+Loaded ID 11308, file LODurm_nalots08.dff
+Loaded ID 10700, file LODurm_xxc.dff
+Loaded ID 8571, file LODzaglyhka7.dff
+Loaded ID 4269, file LOD_bndsq.dff
+Loaded ID 13563, file LOD_build_2_terr.dff
+Loaded ID 13564, file LOD_build_3_terr.dff
+Loaded ID 4281, file LOD_colter.dff
+Loaded ID 4268, file LOD_lndaltn.dff
+Loaded ID 4278, file LOD_tranland.dff
+Loaded ID 10026, file LOD_volzhsk_land.dff
+Loaded ID 4027, file tran_h1LOD.dff
+Loaded ID 25678, file rifle.ifp
+Loaded ID 22334, file LODvolzhsk_troya.txd
+Loaded ID 10041, file LOD_volzhsk_house12.dff
+Loaded ID 10031, file LOD_volzhsk_house_1.dff
+Loaded ID 10118, file LOD_volzhsk_house_t.dff
+Loaded ID 20626, file camera.txd
+Loaded ID 367, file camera.dff
+Loaded ID 22322, file GovmTXD.txd
+Loaded ID 22813, file cnnTXD.txd
+Loaded ID 22807, file govintTXD.txd
+Loaded ID 14302, file cb_bench_1.dff
+Loaded ID 14303, file cb_bench_2.dff
+Loaded ID 14308, file cb_cash_1.dff
+Loaded ID 14312, file cb_chair_1.dff
+Loaded ID 14305, file cb_locker_1.dff
+Loaded ID 14304, file cb_sofa_1.dff
+Loaded ID 14311, file cb_stool_1.dff
+Loaded ID 14314, file cb_table_1.dff
+Loaded ID 14309, file cb_table_2.dff
+Loaded ID 18517, file ch_cab_1a.dff
+Loaded ID 18509, file ch_pc_1.dff
+Loaded ID 18513, file ch_tv_1.dff
+Loaded ID 14371, file stu_details_1.dff
+Loaded ID 14375, file stu_door_1.dff
+Loaded ID 14376, file stu_door_2.dff
+Loaded ID 14372, file stu_logo_1.dff
+Loaded ID 14388, file stu_rooms_1.dff
+Loaded ID 14373, file stu_rooms_2.dff
+Loaded ID 14374, file stu_rooms_3.dff
+Loaded ID 18212, file studoorstatik.dff
+Loaded ID 21019, file yoda.txd
+Loaded ID 1832, file yoda.dff
+Loaded ID 21796, file icons1.txd
+Loaded ID 1275, file clothesp.dff
+Loaded ID 21492, file MatArrows.txd
+Loaded ID 19132, file ArrowType3.dff
+Loaded ID 21412, file MatTextures.txd
+Loaded ID 19300, file blankmodel.dff
+Loaded ID 21795, file icons2.txd
+Loaded ID 1274, file bigdollar.dff
+Loaded ID 21772, file icons6.txd
+Loaded ID 1239, file info.dff
+Loaded ID 21773, file pickUPs.txd
+Loaded ID 1240, file health.dff
+Loaded ID 21896, file prop_pizzabox.txd
+Loaded ID 1582, file pizzabox.dff
+Loaded ID 20913, file claude.txd
+Loaded ID 299, file claude.dff
+Loaded ID 20804, file swmyst.txd
+Loaded ID 188, file swmyst.dff
+Loaded ID 20833, file wmyclot.txd
+Loaded ID 217, file wmyclot.dff
+Loaded ID 21000, file kovalevsky.txd
+Loaded ID 1195, file kovalevsky.dff
+Loaded ID 25032, file multiobj.col

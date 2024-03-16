@@ -1,0 +1,256 @@
+Start game (commit 609605e6)
+Hook crt
+CrtMain
+Disable DEP
+Game: Rodina
+Branch: Main
+desctent_builder initialize stage on_load_library
+Fix default resolution
+Disable 16bit
+Extend SDR formats support
+Disable DWM
+Hook launch errors
+Hook game exit
+Hook game load logging
+Fix refresh rate
+Fix startup errors
+Hook fonts
+Find documets dir
+Use default SAMP font
+Hook AddFontResourceA( "gtaweap3.ttf" )
+Hook AddFontResourceA( "sampaux3.ttf" )
+Load SAMP R3 ( 0x4260000 )
+Force use russian fonts
+Locale: ru-RU (1251)
+Detect multibyte locale with russian characters.
+Disable limit for maximum FPS
+desctent_builder initialize stage on_load_samp
+desctent_builder initialize stage on_load_limit_adjuster
+Create compatible layer for mods without FLA support
+ImproveMods: IMG archives was supported - loading module
+Extend dff limits in SAMP
+Hook startupInfo
+Replace settings file to: rodina.set
+Seasons disabled
+Hook SAA
+Hook gameloop
+Load Runtime
+Done
+Load crashlog
+Load dbg symbols
+Hook UEF
+Time start 00:51:36
+Win ver: 10.0 build 22631 (10)
+With lua "AutoReboot.lua"
+With lua "cdist.lua"
+With lua "check-moonloader-updates.lua"
+With lua "DTime1.3.lua"
+With lua "imgui_addons.lua"
+With lua "imgui_notf.lua"
+With lua "InputHelper.lua"
+With lua "RadioHelper.luac"
+With lua "reload_all.lua"
+With lua "rhelp.luac"
+Load asi-plugins
+Load ASI "$fastman92limitAdjuster.asi" at 0x4940000
+Load ASI "AZVoice.asi" at 0x5c70000
+Load ASI "CLEO.asi" at 0x79290000
+Load ASI "core.asi" at 0x78ac0000
+Load ASI "crashes.asi" at 0x79300000
+Load ASI "enbseries.asi" at 0x6080000
+Load ASI "fixFTH.asi" at 0x788b0000
+Load ASI "libcef.asi" at 0x7c850000
+Load ASI "MoonLoader.asi" at 0x79f20000
+Load ASI "mousefix.asi" at 0x7c790000
+Load ASI "RealSkybox.SA.asi" at 0x793a0000
+Load ASI "SAMPFUNCS.asi" at 0x7a130000
+Load ASI "SilentPatchSA.asi" at 0x79350000
+Load ASI "skygfx.asi" at 0x79400000
+Load ASI "skygrad.asi" at 0x7c7b0000
+Load ASI "StreamMemFix.asi" at 0x6a20000
+Load ASI "timecycle24.asi" at 0x79260000
+Load ASI "_CoreGame.asi" at 0x78870000
+Fix CLEO opcodes
+Loading CEF
+Done
+desctent_builder initialize stage on_load_plugins
+All plugins is loaded
+Load videomode: 1
+Hook SAA2: MODELS\FONTS.TXD to D:\Games\Arizona Games Launcher\bin\rodina\rodina\FONTS.TXD
+Hook SAA2: DATA\FONTS.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\FONTS.DAT
+Hook SAA2: loadscs.txd to D:\Games\Arizona Games Launcher\bin\rodina\rodina\loadscs.txd
+Hook SAA2: HANDLING.CFG to D:\Games\Arizona Games Launcher\bin\rodina\rodina\HANDLING.CFG
+Hook SAA2: data\surface.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\surface.dat
+Hook SAA2: data\surfinfo.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\surfinfo.dat
+Hook SAA2: data\surfaud.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\surfaud.dat
+Init cursor
+Init d3d9
+Hook dx
+CPU:
+	Arch: 9
+	Level: 0x6
+	Type: 0x21d8
+	Count: 12
+MEMORY:
+	Page size: 4096
+	Min address: 0x10000
+	Max address: 0xfffeffff
+	Total: 16122MB
+	Available for system: 27653MB
+	Available for game: 3028MB
+	Available for textures: 3707MB
+VIDEO:
+	Video adapter 0:
+		Device: \\.\DISPLAY1 ( 0x10de, 0x25a5 )
+		Driver: nvldumd.dll ( 1f0000000f11f9 )
+		Description: NVIDIA GeForce RTX 3050 Laptop GPU
+		Vertex shader version: fffe0300
+		Pixel shader version: ffff0300
+Pools initialize
+Hook SAA2: PLANTS.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\PLANTS.DAT
+Hook SAA2: DATA\melee.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\melee.dat
+Hook SAA2: models\effectsPC.txd to D:\Games\Arizona Games Launcher\bin\rodina\rodina\effectsPC.txd
+Hook SAA2: models\effects.fxp to D:\Games\Arizona Games Launcher\bin\rodina\rodina\effects.fxp
+Hook SAA2: DATA\DEFAULT.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\default_derevya_vykl.dat
+Loading the Game: Loading veh_info.IDE 
+Loading the Game: Loading icon_info.IDE 
+Loading the Game: Loading def_info.IDE 
+Loading the Game: Loading ped_info.IDE 
+Loading the Game: Loading weapons.IDE 
+Loading the Game: Loading WEAPONS.COL 
+Loading the Game: Loading texture_1.TXD 
+Loading the Game: Loading fence.TXD 
+Loading the Game: Loading particle.TXD 
+Hook SAA2: DATA\GTA.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\gta_derevya_vykl.dat
+Loading the Game: Loading TXDCUT.IDE 
+Loading the Game: Loading txd.IDE 
+Loading the Game: Loading SAMP.IDE 
+Loading the Game: Loading veh_mods.IDE 
+Loading the Game: Loading vegepart.IDE 
+Loading the Game: Loading dynamic.IDE 
+Loading the Game: Loading dynamic2.IDE 
+Loading the Game: Loading multiobj.IDE 
+Loading the Game: Loading procobj.IDE 
+Loading the Game: Loading levelxre.IDE 
+Loading the Game: Loading arz_bld.IDE 
+Loading the Game: Loading arz_land.IDE 
+Loading the Game: Loading map_landP1.IDE 
+Loading the Game: Loading map_landP2.IDE 
+Loading the Game: Loading map_landP3.IDE 
+Loading the Game: Loading map_landP4.IDE 
+Loading the Game: Loading ryazan.IDE 
+Loading the Game: Loading trees.IDE 
+Loading the Game: Loading zhd_rodina.IDE 
+Loading the Game: Loading map_bild.IDE 
+Loading the Game: Loading podezdy.IDE 
+Loading the Game: Loading pdd.IDE 
+Loading the Game: Loading map_gen.IDE 
+Loading the Game: Loading edovo.IDE 
+Loading the Game: Loading new_ltk.IDE 
+Loading the Game: Loading Scoast.IDE 
+Loading the Game: Loading Wcoast.IDE 
+Loading the Game: Loading gamemods.IDE 
+Loading the Game: Loading event.IDE 
+Loading the Game: Loading accessories.IDE 
+Loading the Game: Loading mod_int.IDE 
+Loading the Game: Loading Object Data
+Hook SAA2: DATA\OBJECT.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\OBJECT.DAT
+Loading the Game: Loading Setup vehicle info data
+Hook SAA2: DATA\CARCOLS.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\CARCOLS.DAT
+Hook SAA2: DATA\CARMODS.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\CARMODS.DAT
+Hook SAA2: MODELS\GENERIC\VEHICLE.TXD to D:\Games\Arizona Games Launcher\bin\rodina\rodina\VEHICLE.TXD
+Loading the Game: Loading Streaming Init
+Loading the Game: Loading Collision
+Loading the Game: Loading map_landP1.IPL 
+Loading the Game: Loading map_landP2.IPL 
+Loading the Game: Loading map_landP3.IPL 
+Loading the Game: Loading map_landP4.IPL 
+Loading the Game: Loading arz_land.IPL 
+Loading the Game: Loading ryazan.IPL 
+Loading the Game: Loading zhd_rodina.IPL 
+Loading the Game: Loading arz_bld.IPL 
+Loading the Game: Loading arz_bld2.IPL 
+Loading the Game: Loading edovo.IPL 
+Loading the Game: Loading new_ltk.IPL 
+Loading the Game: Loading koryakino.IPL 
+Loading the Game: Loading Scoast.IPL 
+Loading the Game: Loading Wcoast.IPL 
+Loading the Game: Loading pdd.IPL 
+Loading the Game: Loading 23_feb.IPL 
+Loading the Game: Loading event.IPL 
+Loading the Game: Loading mod_int.IPL 
+Loading the Game: Loading mod_int2.IPL 
+Loading the Game: Loading mod_int3.IPL 
+Loading the Game: Loading mod_int4.IPL 
+Loading the Game: Loading MAP.ZON 
+Loading the Game: Loading INFO.ZON 
+Loading the Game: Loading audiozones.IPL 
+Loading the Game: Loading cull.IPL 
+Loading the Game: Loading occluArz.IPL 
+Loading the Game: Loading empty.IPL 
+Loading the Game: Loading empty.IPL 
+Loading the Game: Loading empty.IPL 
+Loading the Game: Loading empty.IPL 
+Loading the Game: Loading empty.IPL 
+Loading the Game: Loading empty.IPL 
+Hook SAA2: data\paths\tracks3.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\tracks3.dat
+Hook SAA2: data\paths\tracks2.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\tracks2.dat
+Loading the Game: Add Particles
+Loading the Game: Setup paths
+Loading the Game: Setup water
+Hook SAA2: DATA\water.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\water.dat
+Loading the Game: Setup streaming
+Loading the Game: Load animations
+Loading the Game: Setup streaming
+Loading the Game: Ped Init
+Hook SAA2: DATA\PED.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\PED.DAT
+Loading the Game: Setup game variables
+Hook SAA2: DATA\WEAPON.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\WEAPON.DAT
+Loading the Game: Load scripts
+Hook SAA2: main.scm to D:\Games\Arizona Games Launcher\bin\rodina\rodina\main.scm
+Loading the Game: Setup game variables
+Hook SAA2: DATA\AR_STATS.DAT to D:\Games\Arizona Games Launcher\bin\rodina\rodina\AR_STATS.DAT
+Hook SAA2: data\shopping.dat to D:\Games\Arizona Games Launcher\bin\rodina\rodina\shopping.dat
+Loading the Game: Start script
+Loading the Game: Load scene
+Loading the Game: Procedural Interiors
+Init events
+Load turnlights.txd
+Create plugin
+Subscribe on mainloop
+Init game
+Initialize custom menu
+Initialize limits
+Initialize photo fix
+Initialize translation
+Initialize slow chat
+Initialize chat key
+Initialize custom screens
+Initialize fast fonts
+Initialize chat state
+Initialize preloader
+Initialize FixAudio
+Initialize base time: 27937000ns
+Start unpacking frontend.zip
+Unpacking successful runned
+Initialize chat log
+Initialize stream fix
+AutoLogin is enabled
+Initialize net time: 16319000ns
+Initialize plugins
+Initialize time: 51188000ns
+desctent_builder initialize stage on_load_game
+FreeMemory: Increase memory usage - 1319/4095MB
+Hook RakClient
+Hook RakClient vtbl
+desctent_builder initialize stage on_samp_initialized
+Register fps command
+Register fogdist command
+FreeMemory: Increase memory usage - 1429/4095MB
+FreeMemory: Increase memory usage - 1544/4095MB
+FreeMemory: Increase stream memory usage - 110/1536MB
+FreeMemory: Increase stream memory usage - 427/1536MB
+FreeMemory: Increase memory usage - 1885/4095MB
+FreeMemory: Increase memory usage - 2024/4095MB
+FreeMemory: Increase memory usage - 2159/4095MB
+Exit process from 5d77b66

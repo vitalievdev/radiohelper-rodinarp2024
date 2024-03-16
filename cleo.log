@@ -1,0 +1,40 @@
+17/03/2024 00:51:36.790 Log started.
+17/03/2024 00:51:36.790 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+17/03/2024 00:51:36.790 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+17/03/2024 00:51:36.790 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+17/03/2024 00:51:36.791 Unloading plugins...
+17/03/2024 00:51:36.791 Started on game of version: SA 1.0 us
+17/03/2024 00:51:36.791 Injecting MenuStatusNotifier...
+17/03/2024 00:51:36.791 Replacing call: 0x0057B9FD
+17/03/2024 00:51:36.791 Injecting DmaFix...
+17/03/2024 00:51:36.791 Replacing call: 0x0053E981
+17/03/2024 00:51:36.791 Injecting TextManager...
+17/03/2024 00:51:36.791 Injecting function at: 0x006A0050
+17/03/2024 00:51:36.791 Injecting SoundSystem...
+17/03/2024 00:51:36.791 Replacing call: 0x007487A8
+17/03/2024 00:51:36.791 Injecting CustomOpcodeSystem...
+17/03/2024 00:51:36.791 Injecting ScriptEngine...
+17/03/2024 00:51:36.791 Replacing call: 0x0046A21B
+17/03/2024 00:51:36.791 Replacing call: 0x0058D552
+17/03/2024 00:51:36.791 Replacing call: 0x0058FCE4
+17/03/2024 00:51:36.791 Replacing call: 0x0053BDD7
+17/03/2024 00:51:36.791 Replacing call: 0x005BA340
+17/03/2024 00:51:36.791 Replacing call: 0x005D4FD7
+17/03/2024 00:51:36.791 Replacing call: 0x005D18F0
+17/03/2024 00:51:36.791 Replacing call: 0x005D14D5
+17/03/2024 00:51:36.791 Injecting function at: 0x004667DB
+17/03/2024 00:51:37.074 Creating main window...
+17/03/2024 00:51:37.078 Found sound device 0: No sound
+17/03/2024 00:51:37.078 Found sound device 1: Динамики (Steam Streaming Microphone)
+17/03/2024 00:51:37.078 Found sound device 2: Динамики (Realtek(R) Audio)
+17/03/2024 00:51:37.078 Found sound device 3 (default): Наушники (Realtek(R) Audio)
+17/03/2024 00:51:37.078 Found sound device 4: AI Noise-cancelling Output (ASUS Utility)
+17/03/2024 00:51:37.078 Found sound device 5: Динамики (Steam Streaming Speakers)
+17/03/2024 00:51:37.078 On system found 6 devices, 6 enabled devices, assuming device to use: 3 (Наушники (Realtek(R) Audio))
+17/03/2024 00:51:37.219 SoundSystem initialized
+17/03/2024 00:51:37.219 Floating-point audio supported!
+17/03/2024 00:51:37.219 Audio hardware acceleration disabled (no EAX)
+17/03/2024 00:51:46.827 Scripts exclusively initialized
+17/03/2024 00:51:46.828 Deleting dynamic fxts...
+17/03/2024 00:51:46.829 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
+17/03/2024 00:51:46.829 Searching for cleo scripts
