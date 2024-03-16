@@ -1,0 +1,1 @@
+[[true,"Samp Binder","center({my_nick}[{my_id}] | Ping: [ping({my_id})])\nseperator\nРайон: {city}\nИгрок: [nickid({targetid})]\nseperator\ncenter({data} {time})",1573,378,230,100,0.86,0.86,0.86,1,1,1,0,0,0]]
