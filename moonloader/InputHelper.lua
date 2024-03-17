@@ -37,11 +37,6 @@ function main()
 
 	while true do
 		wait(0)
-		if(isKeyDown(VK_T) and wasKeyPressed(VK_T))then
-			if(not sampIsChatInputActive() and not sampIsDialogActive())then
-				sampSetChatInputEnabled(true)
-			end
-		end
 	end
 	wait(-1)
 end
